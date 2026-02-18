@@ -2,8 +2,9 @@
 
 Escáner de duplicados de alto rendimiento para Windows. Libera espacio en disco detectando archivos idénticos mediante comparación de hash MD5 en paralelo. Rápido, seguro y con interfaz moderna.
 
-![Screenshot](<img width="989" height="781" alt="image" src="https://github.com/user-attachments/assets/e5b0301e-93b8-482b-8309-eeed4637053a" />
-) 
+<img width="989" height="781" alt="image" src="https://github.com/user-attachments/assets/cb230a1d-8724-4673-a238-3f4b6d660799" />
+
+
 
 ## 🚀 Características
 
