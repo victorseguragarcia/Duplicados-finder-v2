@@ -6,7 +6,7 @@ Escáner de duplicados de alto rendimiento para Windows. Libera espacio en disco
 
 
 
-## 🚀 Características
+## Características
 
 - **Escaneo de Alto Rendimiento**: Utiliza **Worker Threads** para calcular hashes MD5 en paralelo, aprovechando todos los núcleos de tu CPU sin congelar la interfaz.
 - **Modo Recursivo Opcional**: Elige si quieres escanear subcarpetas o solo la carpeta seleccionada.
@@ -16,13 +16,13 @@ Escáner de duplicados de alto rendimiento para Windows. Libera espacio en disco
     - Previsualización de archivos antes de borrar.
     - Selección inteligente ("Seleccionar todos menos uno").
 
-## 🛠️ Tecnologías
+## Tecnologías
 
 - **Frontend**: React 19, TypeScript, Tailwind CSS, Framer Motion, Lucide Icons.
 - **Backend (Electron)**: Electron 40, Node.js `fs` (`promises`), `worker_threads`, `crypto`.
 - **Tooling**: Vite, ESLint.
 
-## 📦 Instalación y Uso
+## Instalación y Uso
 
 1.  **Instalar dependencias**:
     ```bash
@@ -41,14 +41,14 @@ Escáner de duplicados de alto rendimiento para Windows. Libera espacio en disco
     npm run build
     ```
 
-## 📂 Estructura del Proyecto
+## Estructura del Proyecto
 
 - **`electron/`**: Código del proceso principal (`main.js`, `preload.js`) y lógica de escaneo (`scanner.js`, `hashWorker.js`).
 - **`src/`**: Código de la interfaz de usuario (React).
     - **`components/`**: Componentes reutilizables (`ScanProgress`, `DuplicateGroup`).
     - **`types.ts`**: Definiciones de tipos TypeScript compartidos.
 
-## ⚡ Optimización
+## Optimización
 
 El escáner implementa una estrategia de dos fases para la velocidad:
 1.  **Agrupación rápida**: Lista archivos y los agrupa por tamaño exacto.
